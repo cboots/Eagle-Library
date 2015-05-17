@@ -1,3 +1,5 @@
 /opto/*.skb
 
 *.skb
+
+*.l#*
