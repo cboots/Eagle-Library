@@ -599,7 +599,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <gate name="G$1" symbol="3PIN-JUMPER-RH" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0402-RES-3PIN-RH">
+<device name="-0402" package="0402-RES-3PIN-RH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -616,7 +616,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <gate name="G$1" symbol="3PIN-JUMPER-LH" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0402-RES-3PIN-LH">
+<device name="-0402" package="0402-RES-3PIN-LH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
