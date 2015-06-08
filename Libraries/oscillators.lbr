@@ -6,13 +6,13 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -26,25 +26,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -85,6 +85,32 @@
 <text x="-1.9" y="1.7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="FA-20H">
+<smd name="1" x="-0.85" y="-0.7" dx="1.2" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="-0.7" dx="1.2" dy="1.1" layer="1"/>
+<smd name="3" x="0.85" y="0.7" dx="1.2" dy="1.1" layer="1"/>
+<smd name="4" x="-0.85" y="0.7" dx="1.2" dy="1.1" layer="1"/>
+<wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1.4" x2="1.7" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.4" x2="1.7" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.4" x2="-1.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.9" x2="0" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="0" y1="0.8" x2="0.1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="0.1" x2="0.1" y2="0.1" width="0.127" layer="21"/>
+<wire x1="0.1" y1="0.1" x2="0.1" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="0.1" y1="-0.1" x2="-0.1" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.1" x2="-0.1" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.3" x2="0.1" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="0.3" x2="0.1" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.9" x2="0" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0" y1="0.4" x2="0" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1.4" x2="-0.8" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.8" x2="-1.4" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.8" x2="-1.1" y2="-1.4" width="0.127" layer="21"/>
+<text x="-1.9" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="XTAL">
@@ -108,6 +134,23 @@
 </gates>
 <devices>
 <device name="32MHZ" package="OSC-4-SMD-3.2MMX2.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FA-20H">
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="32.0000MF20X-K3" package="FA-20H">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
